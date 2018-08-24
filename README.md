@@ -1,6 +1,8 @@
 # RPI_EPAPER
 E-Paper + DHT11 example for Raspberry Pi<br>
 
+![E-Paper](./resize_background.bmp)<br>
+
 2.13 inch E-Paper display from Waveshare was used for testing.<br>
 https://www.waveshare.com/wiki/2.13inch_e-Paper_HAT<br>
 
