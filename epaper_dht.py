@@ -7,6 +7,7 @@ import ImageDraw
 import ImageFont
 from time import localtime, strftime
 import Adafruit_DHT
+import os
 
 TIME_X_POS = 105
 TIME_Y_POS = 10
@@ -16,6 +17,9 @@ HUMID_X_POS = 20
 HUMID_Y_POS = 150
 
 def main():
+    # To fix the path issue when script runs by crontab
+    os.chdir(os.path.dirname(os.path.abspath(__file__)))
+
     # initialize e-paper device
     epd = epd2in13.EPD()
 
